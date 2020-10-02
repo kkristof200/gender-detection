@@ -1,16 +1,18 @@
 # Gender Detection
 
 ## Description
-A node.js module to determine a person's gender based on his/her first name.  
+
+A node.js module to determine a person's gender based on his/her first name.
 
 It works also for many languages other than english, supporting international names, using an own datasource of 40.000 records that can be extended.
 This module is able to clean the text, detecting gender from dirty or unclear names.
 
 ## Installation
 
-    $ npm install gender-detection
+$ npm install kfork-gender-detection
 
 ## Example
+
 ```javascript
 // Require gender detection module
 const gender = require('gender-detection');
@@ -40,6 +42,7 @@ const first_name = gender.getFirstName('Mario Bros');
 ```
 
 ### Unit tests
+
 ```shell
 npm test
 ```
